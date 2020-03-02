@@ -1,0 +1,454 @@
+/* 头部 */
+.header {
+  height: 30px;
+  line-height: 30px;
+  background-color: #f1f1f1;
+}
+.header .container ul li {
+  float: left;
+}
+.header .left span {
+  margin-right: 8px;
+}
+.header .left a {
+  display: inline-block;
+  padding: 0 8px;
+}
+.header .left a:last-child {
+  color: #c91224;
+}
+.header .right li {
+  float: left;
+  font-size: 16px;
+}
+.header .right li a {
+  float: left;
+  padding: 0 8px;
+  font-size: 12px;
+}
+.header .right li a i {
+  margin-left: 8px;
+}
+/* 导航 */
+.nav {
+  height: 106px;
+  padding: 25px 0;
+}
+.nav .left {
+  width: 171px;
+  height: 62px;
+  background: url('../images/logo.png');
+  margin-right: 160px;
+}
+.nav .center input {
+  width: 456px;
+  height: 36px;
+  border: 2px solid #c91224;
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 14px;
+}
+.nav .center button {
+  width: 80px;
+  height: 36px;
+  background-color: #c91224;
+  color: #fff;
+  margin-left: -4px;
+  vertical-align: top;
+}
+.nav .footer ul li {
+  float: left;
+}
+.nav .footer ul li a {
+  float: left;
+  margin: 10px;
+}
+.nav .footer ul li:first-child a {
+  color: #c91224;
+}
+
+.nav .right {
+  width: 140px;
+  height: 36px;
+  background-color: #f7f7f7;
+  line-height: 36px;
+  padding-left: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+.nav .shoppingcar {
+  width: 20px;
+  height: 16px;
+  background: url('../images/icons.png') no-repeat -414px -89px;
+  margin-right: 15px;
+  margin-top: 13px;
+}
+.nav .right a {
+  display: inline-block;
+}
+.nav .right .num {
+  width: 16px;
+  height: 16px;
+  border-radius: 16px 16px 16px 0px;
+  background-color: red;
+  position: absolute;
+  right: 14px;
+  top: -7px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+}
+/* 信息 */
+.info {
+  height: 46px;
+}
+.info .info_left {
+  width: 208px;
+  height: 46px;
+  background-color: #b1181a;
+}
+.info_left p {
+  height: 100%;
+  text-align: center;
+  line-height: 46px;
+  font-size: 16px;
+  color: #fff;
+}
+.info_right {
+  padding-left: 20px;
+  height: 100%;
+}
+.info_right ul {
+  height: 100%;
+  line-height: 46px;
+}
+.info_right ul li {
+  float: left;
+  height: 100%;
+}
+.info_right ul li a {
+  float: left;
+  font-size: 16px;
+  color: #000;
+  padding: 0 20px;
+}
+/* 轮播图 */
+.banner .banner_left {
+  width: 208px;
+  background-color: #c81622;
+}
+.banner_left ul {
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.banner_left ul li {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px 0 15px;
+}
+.banner_left ul li a {
+  color: #fff;
+  float: left;
+}
+.banner_left ul li i {
+  float: right;
+  color: #fff;
+  font-size: 18px;
+}
+.banner .banner_left li.active {
+  background-color: #fff;
+}
+.banner .banner_left li.active a {
+  color: #b1181a;
+}
+.banner_center {
+  width: 721px;
+  height: 455px;
+  background: url('../images/banner_bg.png');
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.banner_right {
+  width: 250px;
+  height: 375px;
+  /* background-color: pink; */
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.banner_right .news {
+  width: 100%;
+  box-sizing: border-box;
+}
+.banner_right .news .top {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #000;
+  border-bottom: 1px dashed #ccc;
+}
+.banner_right .news .top a {
+  font-size: 12px;
+  float: right;
+}
+.banner_right .news .content ul li {
+  height: 24px;
+  line-height: 24px;
+  padding-left: 15px;
+}
+.banner_right .news .content ul li span {
+  font-weight: bold;
+}
+.banner_right .spirit {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 14px;
+}
+.banner_right .spirit ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #fff;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.banner_right .spirit ul li:nth-child(4),
+.banner_right .spirit ul li:nth-child(8),
+.banner_right .spirit ul li:nth-child(12) {
+  border-right: none;
+}
+.banner_right .spirit ul li:nth-child(9),
+.banner_right .spirit ul li:nth-child(10),
+.banner_right .spirit ul li:nth-child(11),
+.banner_right .spirit ul li:nth-child(12) {
+  border-bottom: none;
+}
+
+.banner_right .spirit ul li a {
+  display: block;
+  margin: 0 auto;
+}
+.banner_right .spirit ul li a.one {
+  width: 30px;
+  height: 30px;
+  background: url('../images/icons.png') no-repeat -15px -12px;
+}
+.banner_right .picture {
+  width: 250px;
+  height: 76px;
+  background: url('../images/ad.jpg');
+  margin-top: 6px;
+}
+/* 推荐 */
+.recommend {
+  /* background-color: pink; */
+  margin-top: 20px;
+}
+.recommend ul li a {
+  float: left;
+}
+.recommend ul li {
+  float: left;
+  width: 20%;
+  border-right: 1px solid #333;
+  box-sizing: border-box;
+}
+.recommend ul li a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.recommend ul li:first-child {
+  text-align: center;
+  height: 157px;
+  padding: 30px 0;
+  background-color: #5c5251;
+}
+.recommend ul li:first-child p {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+/* 喜欢 */
+.like {
+  margin-top: 10px;
+}
+.like .top h3 {
+  height: 30px;
+  line-height: 30px;
+  /* background-color: pink; */
+  font-size: 16px;
+  padding-right: 10px;
+  color: #000;
+}
+.like .top h3 a {
+  float: right;
+  font-size: 12px;
+}
+.like .content {
+  border: 1px solid #ccc;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+.like .content ul li {
+  float: left;
+  width: 16.6667%;
+  text-align: center;
+}
+.like .content ul li a {
+  display: block;
+}
+.like .content ul li a p:last-child {
+  color: red;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* 产品 */
+.product {
+  margin-top: 20px;
+}
+.product img {
+  width: 50%;
+  float: left;
+}
+/* 家用电器 */
+.home {
+  margin-top: 10px;
+}
+.home .top {
+  height: 32px;
+  line-height: 32px;
+  /* background-color: pink; */
+  border-bottom: 2px solid #b1181a;
+}
+.home .top h1 {
+  font-size: 16px;
+  color: #b1181a;
+}
+.home .top ul li {
+  float: left;
+}
+.home .top ul li a {
+  float: left;
+  padding: 0 15px;
+}
+.home .top ul li a.active {
+  color: #c81622;
+}
+.home .content {
+  width: 210px;
+}
+.home .content ul {
+  padding: 0 14px;
+}
+.home .content ul li {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.home .content ul li a {
+  display: block;
+}
+.home .tv {
+  width: 210px;
+  height: 200px;
+  /* background-color: pink; */
+  margin-top: 30px;
+  text-align: center;
+}
+.home .tv p {
+  color: #c81622;
+  font-size: 14px;
+}
+/* 底部 */
+.footer {
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+.footer .top {
+  width: 100%;
+  height: 110px;
+  border-bottom: 1px solid #ccc;
+}
+.footer .top ul {
+  height: 100%;
+}
+.footer .top ul li {
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.footer .top ul li div {
+  background-repeat: no-repeat;
+  margin-left: 30px;
+}
+.footer .top ul li.one div {
+  width: 54px;
+  height: 53px;
+  background-image: url('../images/icons.png');
+  background-position: -250px 0;
+}
+.footer .top ul li p {
+  text-align: left;
+  margin-left: 100px;
+}
+.footer .top ul li p.first {
+  margin-top: 8px;
+  line-height: 20px;
+  font-size: 16px;
+  color: #000;
+}
+.footer .top ul li.two div {
+  width: 58px;
+  height: 51px;
+  background-image: url('../images/icons.png');
+  background-position: -250px -53px;
+}
+.footer .top ul li.three div {
+  width: 57px;
+  height: 52px;
+  background-image: url('../images/icons.png');
+  background-position: -252px -104px;
+}
+.footer .top ul li.four div {
+  width: 55px;
+  height: 52px;
+  background-image: url('../images/icons.png');
+  background-position: -254px -156px;
+}
+.footer .top ul li.five div {
+  width: 56px;
+  height: 52px;
+  background-image: url('../images/icons.png');
+  background-position: -254px -208px;
+}
+.footer .content {
+  border-bottom: 1px solid #ccc;
+}
+.footer .content dl {
+  float: left;
+  width: 16.666%;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 20px;
+  padding-bottom: 15px;
+}
+.footer .content dl dt {
+  font-size: 14px;
+  color: #000;
+  line-height: 30px;
+}
+.footer .kefu {
+  text-align: center;
+  padding: 20px 0;
+}

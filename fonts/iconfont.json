@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "584245",
+      "name": "搜索",
+      "font_class": "iconfonticonfontsousuo1",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "859451",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "1079664",
+      "name": "箭头_下",
+      "font_class": "jiantouxia",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "1232398",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "1980999",
+      "name": "箭头_右",
+      "font_class": "jiantou1",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "2038793",
+      "name": "购物车-23",
+      "font_class": "qicheqianlian-",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "2402040",
+      "name": "箭头",
+      "font_class": "jiantou2",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "5439968",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "5877545",
+      "name": "购物车",
+      "font_class": "biaoqing",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "8783187",
+      "name": "箭头",
+      "font_class": "dibudaohanglan-",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}
